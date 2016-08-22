@@ -1,0 +1,30 @@
+#Default Input File: default.inp
+#BCT File Type: VTP
+#Number of BCT Files: 2
+#BCT Matching Type: Global Node ID
+
+Number of Timesteps: 500   # can use 1000 steps for 0.4s  
+Time Step Size: 0.0004
+
+Number of Timesteps between Restarts:50 
+
+Number of Force Surfaces: 1
+Surface ID's for Force Calculation: 1
+
+#Print Average: True               
+#Print Error Indicators: False  
+
+Number of Coupled Surfaces: 2  
+Number of Resistance Surfaces: 2   
+List of Resistance Surfaces: 3 4  
+Resistance Values : 16000 16000  
+
+Viscosity: 0.04  
+Density: 1.06 
+
+#svLS Type: GMRES
+#Time Integration Rho Infinity: 0.0  
+
+Step Construction : 0 1 0 1
+
+#Force Calculation Method: Residual Based
